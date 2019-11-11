@@ -18,7 +18,7 @@ public abstract class Conta {
 				this.bandeira = bandeira;
 			} else this.remover(this);
 		} catch (Exception e) {
-			System.out.println("Esse Cliente Não existe para se cadastrar nessa Conta");
+			System.out.println("Esse cliente NÃ£o existe para se cadastrar nessa Conta");
 		}	
 	}
 	
@@ -63,8 +63,8 @@ public abstract class Conta {
 	public void sacar(double valor) {
 		if (saldo > valor) {
 			this.saldo -= valor;
-		} else	if (valor<0) System.out.println("Não é permitido sacar valor negativo");
-		else System.out.println("Esse saque é maior do que o seu saldo");
+		} else	if (valor<0) System.out.println("Nï¿½o ï¿½ permitido sacar valor negativo");
+		else System.out.println("Esse saque ï¿½ maior do que o seu saldo");
 	}
 	public abstract void depositar(double valor);
 
@@ -72,7 +72,7 @@ public abstract class Conta {
 		if (this != conta) {
 			this.sacar(valor);
 			conta.depositar(valor);
-		} else System.out.println("Você Não pode transferir para a mesma conta");
+		} else System.out.println("Vocï¿½ Nï¿½o pode transferir para a mesma conta");
 	}
 
 	@SuppressWarnings("null")
@@ -86,6 +86,6 @@ public abstract class Conta {
 	public String toString() {
 		if (titular != null) {
 		return "\nagencia: "+ agencia + "\ntitular: " + titular + "\nbandeira: " + bandeira + "\nsaldo: " + saldo;
-		} else return "Essa conta não existe";
+		} else return "Essa conta nï¿½o existe";
 	}
 }

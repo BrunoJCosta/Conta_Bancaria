@@ -9,7 +9,7 @@ public class ContaCorrente extends Conta {
 	public void depositar(double valor) {
 		if (valor >= 0) {
 			setSaldo(valor);
-		} else System.out.println("Não é permitido depositar valor negativo");
+		} else System.out.println("Nï¿½o ï¿½ permitido depositar valor negativo");
 	}
 	
 }

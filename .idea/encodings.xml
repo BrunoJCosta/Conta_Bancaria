@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Interno/Bruno.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Interno/Cliente.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Interno/Conta.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Interno/ContaCorrente.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Interno/ContaPoupanca.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Interno/TesouroDireto.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Rendimento/Rendimento.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Rendimento/RendimentoPoupanca.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/Rendimento/RendimentoTD.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ContaBancaria/src/View/Principal.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

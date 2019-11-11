@@ -18,7 +18,7 @@ public class ContaPoupanca extends Conta {
 				this.setBandeira(bandeira);
 			} else this.remover(this);
 		} catch (Exception e) {
-			System.out.println("Não é possivel cadastrar essa conta pois o valor é menor que o permitido");
+			System.out.println("NÃ£o Ã© possivel cadastrar essa conta pois o valor Ã© menor que o permitido");
 		}
 	}
 	
@@ -26,6 +26,6 @@ public class ContaPoupanca extends Conta {
 	public void depositar(double valor) {
 		if (valor > 0)
 			this.setSaldo((Estrato() + valor) + taxaRendimento.calcularRendimento(valor));
-		else System.out.println("Não é permitido depositar valor negativo ou valor=0");
+		else System.out.println("NÃ£o e permitido depositar valor negativo ou valor=0");
 	}
 }

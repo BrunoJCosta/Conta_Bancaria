@@ -8,7 +8,7 @@ import Interno.TesouroDireto;
 
 public class Principal {
 	public static void main(String[] args) {
-		// CriaÁ„o do cliente, sem a Conta;
+		// Cria√ß√£o do cliente, sem a Conta;
 		
 		System.out.println("CADASTRO DE CLIENTES\n");
 
@@ -21,10 +21,10 @@ public class Principal {
 		Cliente maria = new Cliente ("Maria","07976434572","3408564853",16);
 		System.out.println("Maria: " + maria.toString() + "\n");
 		
-		Cliente joao = new Cliente ("Jo„o","02465345720","3345964853",25);
+		Cliente joao = new Cliente ("Jo√£o","02465345720","3345964853",25);
 		System.out.println("Joao: " + joao.toString() + "\n");
 
-		// CriaÁ„o das Conta 
+		// Cria√ß√£o das Conta 
 		
 		Conta ceara = new ContaPoupanca("Ceara", bruno, "CE", 300);
 		

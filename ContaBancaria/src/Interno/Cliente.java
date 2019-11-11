@@ -7,7 +7,7 @@ public class Cliente {
 	private String RG;
 	private int idade;
 	
-	//Constructor! Caso o cliente tenha a idade menor que 18 anos ele não cadastra e continua a operação;
+	//Constructor! Caso o cliente tenha a idade menor que 18 anos ele nï¿½o cadastra e continua a operaï¿½ï¿½o;
 	public Cliente(String nome,String CPF,String RG, int anos) {
 		try {
 			if (anos >= 18) {
@@ -17,7 +17,7 @@ public class Cliente {
 				this.idade = anos;
 			} else this.remover(this);
 		} catch (Exception e) {
-			System.out.println("Não é permitido cadastro com idade menor que 18 anos");
+			System.out.println("Nï¿½o ï¿½ permitido cadastro com idade menor que 18 anos");
 		}
 	}
 	
@@ -58,7 +58,7 @@ public class Cliente {
 	public String toString() {
 		if (this.CPF != null)
 		return " (Numero da Conta:  "+ numero + " | nome: " + nome + " | CPF: " + CPF + " | RG: " + RG + " | Idade: " + idade + ")";
-		else return "Não existe esse Cliente";
+		else return "Nï¿½o existe esse Cliente";
 	}
 	// Reescrito o equals	
 	@Override

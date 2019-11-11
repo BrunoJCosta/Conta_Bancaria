@@ -18,7 +18,7 @@ public class TesouroDireto extends Conta {
 				this.setBandeira(bandeira);
 			} else this.remover(this);
 		} catch (Exception e) {
-			System.out.println("Não é possivel cadastrar essa conta pois o valor é menor que o permitido");
+			System.out.println("Nï¿½o ï¿½ possivel cadastrar essa conta pois o valor ï¿½ menor que o permitido");
 		}
 	}
 
@@ -26,6 +26,6 @@ public class TesouroDireto extends Conta {
 	public void depositar(double valor) {
 		if (valor > 0)	{
 			setSaldo(Estrato() + valor + taxaRendimento.calcularRendimento(valor));
-		} else System.out.println("Não é permitido depositar valor = 0 ou menor");
+		} else System.out.println("Nï¿½o ï¿½ permitido depositar valor = 0 ou menor");
 	}
 }
